@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> PORTAFOLIO JUAN DAVID </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="imgage/png" href="img/favicon-32x32.png">
+    </head>
+
+        <body>
+                <header>
+                    <img src="img/foto1.jpg" alt="Juan David" class="profile-pic" onclick="openModal()">
+                    <div id="infoModal" class="modal" style="display: none;">
+                        <div class="modal-content">
+                            <button class="close-modal-btn" onclick="closeModal()">&#10006;</button>
+                            <h2>Juan David Tabarez Sanchez</h2>
+                            <p><strong>📅 Fecha de Nacimiento:</strong> 08/20/2003</p>
+                            <p><strong>📍 Ubicación:</strong> Colombia, Santiago de Cali</p>
+                            <p><strong>💻 Perfil:</strong> Desarrollador Web con experiencia en HTML, CSS y JavaScript. Apasionado por la tecnología y la creación de sitios modernos y funcionales.</p>
+                            <p><strong>🚀 Habilidades:</strong> HTML | CSS | JavaScript</p>
+                            <p><strong>🔗 Redes:</strong></p>
+                            <a href="https://linkedin.com/in/TU_LINKEDIN" target="_blank">LinkedIn</a> | 
+                            <a href="https://github.com/juant1203/LIA-STORE.git" target="_blank">GitHub</a>
+                            <br><br>
+                            <a href="TU_CV.pdf" class="download-cv" download>📄 Descargar CV</a>
+                        </div>
+                    </div>
+                <section id="inicio">
+                    <h1>Juan David Tabarez Sanchez - Desarrollador Web</h1>
+                    <img src="img/favicon.webp" alt="Favicon de mi Portafolio" class="favicon-img">
+                     <h2>Bienvenidos a mi Portafolio</h2>
+                    <p>Soy Juan David, un desarrollador web apasionado por transformar ideas en realidades digitales.</p>
+                 </section>
+                <section id="proyectos">
+                    <h2>Proyectos</h2>
+                    <div class="proyecto">
+                        <h3>LIA STORE</h3>
+                        <p>Tienda desarrollada con HTML, CSS, JAVASCRIPT, la puedes encontrar acá:</p>
+                        <a href="https://lia-store.vercel.app/" target="_blank" class="contact-button">LIA STORE</a>
+                        <a href="https://github.com/juant1203/LIA-STORE.git" target="_blank" class="contact-button">Ver Código en GitHub</a>
+                        <p>El proyecto no es para un trabajar en línea como lo dice mi paágina, es para mi protafolio de lo que he creado, <br>
+                            he creado otras páginas pero han quedado en el olvido, pero me gustaría seguir creando <br>
+                            y hacer muchas cosas más
+                        </p>    
+                </section>
+            </div>
+            <button class="lia-store-button" onclick="openLiaModal()">Proyecto LIA STORE</button>                    
+            <div id="liaModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <button class="close-modal-btn" onclick="closeLiaModal()">&#10006;</button> 
+                <h2>📸 Imágenes de LIA STORE</h2>
+                <div class="lightbox" id="lightbox">
+                    <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+                    <img class="lightbox-content" id="lightbox-img">
+            </div>
+                <div class="carousel-container">
+                    <div class="carousel">
+                    <div class="image-gallery">
+                    <img src="img/img1.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+                    <img src="img/img2.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+                    <img src="img/img3.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+                    <img src="img/img4.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+                    <img src="img/img5.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+                    <img src="img/img6.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+                    <img src="img/img7.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+            </div>
+            </div>   
+            </div>
+            </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>                       
+            </div>
+            </div>     
+        
+                <section id="habilidades">
+                    <h2>Habilidades</h2>
+                    <p>HTML, CSS y JAVASCRIPT, aunque también estoy interesado en aprender más <br>
+                        como podría ser, react, node.js, python, backend y muchas más <br> para 
+                        poder especializarme más en mis proyectos como desarrollador web.></p>
+                </section>
+        
+                <section id="contacto">
+                    <h2>Contacto</h2>
+                    <p>Puedes encontrarme en <a href="" class="contact-button">LinkedIn</a> o enviarme un correo en: <a href="mailto:tabares0820@gmail.com" class="contact-button">Contactame</a></p> <br>
+                    <p> o enviarme un mensaje al WhatsApp</p><a href="https://wa.me/3165718447" target="_blank" class="whatsapp-button">
+                    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" width="30"> WhatsApp
+                    </a>
+                </section>
+                <nav>
+                    <ul>
+                        <li><button class="nav-button" onclick="scrollToSection('inicio')">Inicio</button></li>
+                        <li><button class="nav-button" onclick="scrollToSection('proyectos')">Proyectos</button></li>
+                        <li><button class="nav-button" onclick="scrollToSection('habilidades')">Habilidades</button></li>
+                        <li><button class="nav-button" onclick="scrollToSection('contacto')">Contacto</button></li>
+                        
+                    </ul>
+                </nav>
+        </header>     
+            <script src="script.js"></script>    
+    </body>
+</html>
