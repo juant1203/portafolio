@@ -90,6 +90,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 .profile-pic {
@@ -123,6 +124,7 @@ html {
 .close-.profile-pic:hover {
     background-color: darkred;
 }
+
 
 .favicon-img {
     width: 100px;
@@ -402,21 +404,39 @@ p {
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 20px;
-    }
+h1 {
+    font-size: 20px;
+}
 
-    h2 {
-        font-size: 18px;
-    }
+h2 {
+    font-size: 18px;
+}
 
-    h3 {
-        font-size: 16px;
-    }
+h3 {
+    font-size: 16px;
+}
 
-    p {
-        font-size: 14px;
+p {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .nav-button {
+    padding: 8px 12px;
+    font-size: 14px;
     }
+}
+
+@media (max-width: 768px) {
+.profile-pic {
+    width: 100px; /* Reduce el tamaño */
+    position: relative; /* Evita que se superponga */
+    top: 10px;
+}
+}
+}
+section {
+    padding-top: 100px;
 }
 
 /* GAME */
