@@ -456,6 +456,20 @@ p {
     .mobile-warning {
         display: none;
     }
+} @media (min-width: 768px) {
+    .mobile-warning {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .mobile-warning {
+        display: block;
+        text-align: center;
+        background: red;
+        color: white;
+        padding: 10px;
+        font-size: 1.2em;
+    }
 }
 
 }
