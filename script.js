@@ -199,7 +199,7 @@ new Chart(ctx, {
     labels: ["HTML", "CSS", "JavaScript", "WordPress", "React", "Backend (WIP)"],
     datasets: [
       {
-        data: [40, 30, 20, 30, 15, 5],
+        data: [40, 30, 20, 30, 15, 6],
         backgroundColor: ["#F16529", "#2965F1", "#F7DF1E", "#21759B", "#61DBFB", "#2f415f"],
       },
     ],
