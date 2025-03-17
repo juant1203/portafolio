@@ -429,11 +429,35 @@ p {
 
 @media (max-width: 768px) {
 .profile-pic {
-    width: 100px; /* Reduce el tamaño */
-    position: relative; /* Evita que se superponga */
+    width: 100px; 
+    position: relative; 
     top: 10px;
 }
 }
+
+@media (max-width: 768px) {
+    .mobile-warning {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        text-align: center;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile-warning {
+        display: none;
+    }
+}
+
 }
 section {
     padding-top: 100px;
