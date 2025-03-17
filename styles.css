@@ -234,7 +234,7 @@ html {
 }
 
 .carousel img {
-    width: 310px; /* Ajusta según el tamaño */
+    width: 310px; 
     height: auto;
 }
 
@@ -545,7 +545,7 @@ h1 {
 .click-aqui {
     position: absolute;
     top: 20px;
-    left: 120px; /* Ajusta según la posición de tu foto */
+    left: 120px; 
     background-color: black;
     color: white;
     padding: 8px 15px;
