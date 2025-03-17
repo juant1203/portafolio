@@ -471,6 +471,19 @@ p {
         font-size: 1.2em;
     }
 }
+.mobile-warning {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
 
 }
 section {
