@@ -8,97 +8,171 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="imgage/png" href="img/favicon-32x32.png">
     </head>
+  <body>
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="wheel">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
 
-        <body>
-                <header>
-                    <img src="img/foto1.jpg" alt="Juan David" class="profile-pic" onclick="openModal()">
-                    <div id="infoModal" class="modal" style="display: none;">
-                        <div class="modal-content">
-                            <button class="close-modal-btn" onclick="closeModal()">&#10006;</button>
-                            <h2>Juan David Tabarez Sanchez</h2>
-                            <p><strong>📅 Fecha de Nacimiento:</strong> 08/20/2003</p>
-                            <p><strong>📍 Ubicación:</strong> Colombia, Santiago de Cali</p>
-                            <p><strong>💻 Perfil:</strong> Desarrollador Web con experiencia en HTML, CSS y JavaScript. Apasionado por la tecnología y la creación de sitios modernos y funcionales.</p>
-                            <p><strong>🚀 Habilidades:</strong> HTML | CSS | JavaScript</p>
-                            <p><strong>🔗 Redes:</strong></p>
-                            <a href="https://linkedin.com/in/TU_LINKEDIN" target="_blank">LinkedIn</a> | 
-                            <a href="https://github.com/juant1203/LIA-STORE.git" target="_blank">GitHub</a>
-                            <br><br>
-                            <a href="TU_CV.pdf" class="download-cv" download>📄 Descargar CV</a>
-                        </div>
-                    </div>
-                <section id="inicio">
-                    <h1>Juan David Tabarez Sanchez - Desarrollador Web</h1>
-                    <img src="img/favicon.webp" alt="Favicon de mi Portafolio" class="favicon-img">
-                     <h2>Bienvenidos a mi Portafolio</h2>
-                    <p>Soy Juan David, un desarrollador web apasionado por transformar ideas en realidades digitales.</p>
-                 </section>
-                <section id="proyectos">
-                    <h2>Proyectos</h2>
-                    <div class="proyecto">
-                        <h3>LIA STORE</h3>
-                        <p>Tienda desarrollada con HTML, CSS, JAVASCRIPT, la puedes encontrar acá:</p>
-                        <a href="https://lia-store.vercel.app/" target="_blank" class="contact-button">LIA STORE</a>
-                        <a href="https://github.com/juant1203/LIA-STORE.git" target="_blank" class="contact-button">Ver Código en GitHub</a>
-                        <p>El proyecto no es para un trabajar en línea como lo dice mi paágina, es para mi protafolio de lo que he creado, <br>
-                            he creado otras páginas pero han quedado en el olvido, pero me gustaría seguir creando <br>
-                            y hacer muchas cosas más
-                        </p>    
-                </section>
-            </div>
-            <button class="lia-store-button" onclick="openLiaModal()">Proyecto LIA STORE</button>                    
-            <div id="liaModal" class="modal" style="display: none;">
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+            <div class="cabin"></div>
+        </div>
+    </div>
+    <!-- PORTAFOLIO -->
+    <header>
+        <div class="click-aqui"> ⬅ Click Aquí</div>
+        <img src="img/foto1.jpg" alt="Juan David" class="profile-pic" onclick="openModal()">
+        <div id="infoModal" class="modal" style="display: none;">
             <div class="modal-content">
-                <button class="close-modal-btn" onclick="closeLiaModal()">&#10006;</button> 
-                <h2>📸 Imágenes de LIA STORE</h2>
-                <div class="lightbox" id="lightbox">
-                    <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
-                    <img class="lightbox-content" id="lightbox-img">
+                <button class="close-modal-btn" onclick="closeModal()">&#10006;</button>
+                <h2>Juan David Tabarez Sanchez</h2>
+                <p><strong>📅 Fecha de Nacimiento:</strong> 08/20/2003</p>
+                <p><strong>📍 Ubicación:</strong> Colombia, Santiago de Cali</p>
+                <p><strong>💻 Perfil:</strong> Desarrollador Web con experiencia en HTML, CSS y JavaScript. Apasionado por la tecnología y la creación de sitios modernos y funcionales.</p>
+                <p><strong>🚀 Habilidades:</strong> HTML | CSS | JavaScript |  WordPress | Backend en proceso, etc.</p>
+                <p><strong>🔗 Redes:</strong></p>
+                <a href="https://www.linkedin.com/in/juan-david-tabarez-208b14353/" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/juant1203/LIA-STORE.git" target="_blank">GitHub</a>
+                <br><br>
+                <a href="TU_CV.pdf" class="download-cv" download>📄 Descargar CV</a>
             </div>
-                <div class="carousel-container">
-                    <div class="carousel">
-                    <div class="image-gallery">
-                    <img src="img/img1.PNG" class="carousel-image" onclick="openLightbox(this.src)">
-                    <img src="img/img2.PNG" class="carousel-image" onclick="openLightbox(this.src)">
-                    <img src="img/img3.PNG" class="carousel-image" onclick="openLightbox(this.src)">
-                    <img src="img/img4.PNG" class="carousel-image" onclick="openLightbox(this.src)">
-                    <img src="img/img5.PNG" class="carousel-image" onclick="openLightbox(this.src)">
-                    <img src="img/img6.PNG" class="carousel-image" onclick="openLightbox(this.src)">
-                    <img src="img/img7.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+        </div>
+    <section id="inicio">
+        <h1>Juan David Tabarez Sanchez - Desarrollador Web</h1>
+        <img src="img/favicon.webp" alt="Favicon de mi Portafolio" class="favicon-img"> <br>
+         <h2>Bienvenidos a mi Portafolio</h2> <br>
+        <p>Mi nombre es Juan David Tabarez Sánchez como ya lo habrán visto arriba....<br>
+            📍 Santiago de Cali, Colombia <br> 💻 Desarrollador Web  <br> 💃 Instructor de Baile  <br>
+            Soy un apasionado por la programación y el baile, dos mundos que me permiten expresarme de formas únicas.
+            <br> A mis 21 años, he encontrado en el desarrollo web una manera de crear e innovar <br> mientras que el baile me ha enseñado disciplina, creatividad y trabajo en equipo.<br>
+            Como profesional, me destaco por ser:  <br> detallista, carismático y comprensivo,  <br> cualidades que aplico tanto en el desarrollo de proyectos como en el trabajo en equipo. <br> Me encanta aprender nuevas tecnologías, cocinar y disfrutar tiempo de calidad con mi hija, quien es mi mayor motivación. <br>
+            Actualmente, estoy perfeccionando mis habilidades como desarrollador full stack,  <br> enfocándome en construir soluciones digitales funcionales y atractivas. <br> Siempre estoy en busca de nuevos retos y oportunidades para crecer en el mundo del desarrollo web.</p>
+        <p>🎯 Objetivo: <br> Conseguir oportunidades remotas como desarrollador web y seguir expandiendo mis conocimientos en tecnología.</p> <br>
+        </section>
+        <h2>Mi Trayectoria en el Desarrollo Web: <br> De un Gato en CSS a una Tienda en Línea</h2><br>
+        <p>Desde que empecé en el mundo del desarrollo web, cada proyecto ha sido una oportunidad para <br> aprender, experimentar y superarme.
+            Todo comenzó con un gato hecho únicamente con CSS, <br> un desafío que me mostró el poder del diseño sin necesidad de imágenes. <br> Fue mi primer acercamiento a las formas y sombras en el código,<br> y me hizo enamorarme de la creatividad dentro del desarrollo web. <br>
+            Luego, decidí ir un paso más allá y creé un <br> horizonte de edificios que cambiaba entre el día y la noche dependiendo del tamaño de la pantalla.<br> Este proyecto me permitió comprender mejor los media queries y la adaptabilidad en diseño web. <br>
+            A medida que exploraba más animaciones, desarrollé un pingüino que saluda con CSS y animaciones, <br> lo que me hizo profundizar en keyframes y efectos dinámicos en la interfaz.<br>
+            Después de dominar el diseño y la animación, <br> di el salto a la programación con JavaScript, donde creé un juego de piedra, papel o tijera. <br> Aquí comprendí la lógica de programación, la manipulación del DOM y la interactividad con el usuario. <br>
+            Hoy en día, estoy aplicando todo lo aprendido en mi mayor desafío hasta el momento: <br> una tienda en línea. Este proyecto reúne diseño, animaciones, interactividad y lógica de programación,<br> y me ha permitido expandir mis conocimientos en desarrollo full stack. <br>
+            Cada proyecto ha sido un escalón en mi camino como desarrollador,<br> y estoy emocionado por lo que vendrá en el futuro.</p> <br>
+    <section id="proyectos">
+        <h2>Proyectos</h2> <br>
+        <div class="proyecto">
+            <h3>LIA STORE</h3> <br>
+            <p>Tienda desarrollada con HTML, CSS, JAVASCRIPT, la puedes encontrar acá:</p>
+            <a href="https://lia-store.vercel.app/" target="_blank" class="contact-button">LIA STORE</a>
+            <a href="https://github.com/juant1203/LIA-STORE.git" target="_blank" class="contact-button">Ver Código en GitHub</a>
+            <p>El proyecto no es para un trabajar en línea como lo dice mi página, es para mi protafolio de lo que he creado, <br>
+                he creado otras páginas pero han quedado en el olvido, pero me gustaría seguir creando <br>
+                y hacer muchas cosas más
+            </p>    <br>
+    </section>
+</div>
+<button class="lia-store-button" onclick="openLiaModal()">Proyecto LIA STORE</button>                    
+<div id="liaModal" class="modal" style="display: none;">
+<div class="modal-content">
+    <button class="close-modal-btn" onclick="closeLiaModal()">&#10006;</button> 
+    <h2>📸 Imágenes de LIA STORE</h2>
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+</div>
+    <div class="carousel-container">
+        <div class="carousel">
+        <div class="image-gallery">
+        <img src="img/img1.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+        <img src="img/img2.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+        <img src="img/img3.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+        <img src="img/img4.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+        <img src="img/img5.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+        <img src="img/img6.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+        <img src="img/img7.PNG" class="carousel-image" onclick="openLightbox(this.src)">
+</div>
+</div>   
+</div>
+</div>
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>                       
+</div>
+</div>     
+
+    <section id="habilidades">
+        <h2>Habilidades</h2> <br>
+        <p>✅ HTML, CSS y JavaScript – Son mis pilares principales, con los que he construido la mayoría de mis proyectos. <br>
+            🔹 WordPress y React – Los conozco, pero aún sigo aprendiendo y mejorando en ellos.<br>
+            🚀 Backend (En proceso) – Estoy adentrándome en el mundo del desarrollo backend <br> para complementar mis habilidades y convertirme en un Full Stack Developer. <br>
+            Cada línea de código escrita me ha acercado más a mi objetivo de ser un desarrollador web completo, <br> y seguiré explorando nuevas tecnologías para crecer aún más. 💻🔥
+            </p> <br>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <canvas id="skillsChart"></canvas>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2> <br>
+        <p>Puedes encontrarme en <a href="https://www.linkedin.com/in/juan-david-tabarez-208b14353/" class="contact-button" target="_blank">LinkedIn</a> o enviarme un correo en: <a href="mailto:tabares0820@gmail.com" class="contact-button">Contactame</a></p> <br>
+        <p> o enviarme un mensaje al WhatsApp</p><a href="https://wa.me/3165718447" target="_blank" class="whatsapp-button">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" width="30"> WhatsApp
+        </a>
+    </section>
+    <nav>
+        <ul>
+            <li><button class="nav-button" onclick="scrollToSection('inicio')">Inicio</button></li>
+            <li><button class="nav-button" onclick="scrollToSection('proyectos')">Proyectos</button></li>
+            <li><button class="nav-button" onclick="scrollToSection('habilidades')">Habilidades</button></li>
+            <li><button class="nav-button" onclick="scrollToSection('contacto')">Contacto</button></li>
+            <li><button class="nav-button" onclick="openGameModal('game')">Juega Conmigo</button></li>
+        </ul>
+    </nav>
+</header>
+<!-- GAME -->
+<div id="gameModal" class="modal-open" style="display: none;">
+    <div class="modal-fly">
+        <button class="close-modal-btn" onclick="closeGameModal()">&#10006;</button>
+        <h2>Juega a la Suerte</h2>
+        <h1>¡Juguemos a Piedra, Papel y Tijeras!</h1>
+        <details class="rules-container">
+            <summary>Reglas del juego</summary>
+            <p>Jugarás contra la computadora.</p>
+            <p>Puedes elegir entre Piedra, Papel y Tijeras.</p>
+            <p>El primero que consiga tres puntos gana.</p>
+            <ul>
+                <li>Piedra vence a Tijeras</li>
+                <li>Tijeras vence a Papel</li>
+                <li>Papel vence a la Piedra</li>
+            </ul>
+            <p>Si el jugador y la computadora eligen la misma opción, nadie obtiene el punto.</p>
+        </details>
+        <div class="score-container">
+            <strong>Jugador: <span class="score" id="player-score">0</span></strong>
+            <strong>Computadora: <span class="score" id="computer-score">0</span></strong>
+        </div>
+        <section class="options-container">
+            <h2>Escoge una opción:</h2>
+            <div class="btn-container">
+                <button id="rock-btn" class="btn">Piedra</button>
+                <button id="paper-btn" class="btn">Papel</button>
+                <button id="scissors-btn" class="btn">Tijera</button>
             </div>
-            </div>   
-            </div>
-            </div>
-                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-                <button class="next" onclick="moveSlide(1)">&#10095;</button>
-            </div>                       
-            </div>
-            </div>     
-        
-                <section id="habilidades">
-                    <h2>Habilidades</h2>
-                    <p>HTML, CSS y JAVASCRIPT, aunque también estoy interesado en aprender más <br>
-                        como podría ser, react, node.js, python, backend y muchas más <br> para 
-                        poder especializarme más en mis proyectos como desarrollador web.></p>
-                </section>
-        
-                <section id="contacto">
-                    <h2>Contacto</h2>
-                    <p>Puedes encontrarme en <a href="" class="contact-button">LinkedIn</a> o enviarme un correo en: <a href="mailto:tabares0820@gmail.com" class="contact-button">Contactame</a></p> <br>
-                    <p> o enviarme un mensaje al WhatsApp</p><a href="https://wa.me/3165718447" target="_blank" class="whatsapp-button">
-                    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" width="30"> WhatsApp
-                    </a>
-                </section>
-                <nav>
-                    <ul>
-                        <li><button class="nav-button" onclick="scrollToSection('inicio')">Inicio</button></li>
-                        <li><button class="nav-button" onclick="scrollToSection('proyectos')">Proyectos</button></li>
-                        <li><button class="nav-button" onclick="scrollToSection('habilidades')">Habilidades</button></li>
-                        <li><button class="nav-button" onclick="scrollToSection('contacto')">Contacto</button></li>
-                        
-                    </ul>
-                </nav>
-        </header>     
-            <script src="script.js"></script>    
-    </body>
+        </section>
+        <div class="results-container">
+            <p id="results-msg"></p>
+            <p id="winner-msg"></p>
+            <button class="btn" id="reset-game-btn">Jugar de nuevo</button>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>    
+  </body>
 </html>
